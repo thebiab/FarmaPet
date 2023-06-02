@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/LOGOPAG.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>FarmaPet: O melhor cuidado que seu PET pode ter!</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+</head>
+<body>
+    
+    <header class="header">
+
+        <a href="#" class="logo"> <i class="fas fa-paw"></i> FarmaPet</a>
+
+        <nav class="navbar">
+          
+            <a href="#home">Home</a>
+           <a href="#about">Sobre</a>
+            <a href="#remedio">Remédios</a>
+            <a href="#higiene">Higiene</a>
+            <a href="#cuidados">Cuidados</a>
+            <a href="#contato">Contato</a>
+      
+        </nav>
+
+        <div class="icons">
+            <div id="login-btn" class="fas fa-user"></div>
+            <div id="menu-btn" class="fas fa-bars"> </div>
+        </div>
+
+        <form action="" class="login-form">
+
+            <h3>Faça Login</h3>
+            
+            <input type="email" placeholder="Insira seu email" class="box" required>
+            <input type="password" placeholder="Insira sua senha" class="box" required>
+            <div class="remember">
+                <input type="checkbox" name="" id="remember-me">
+                <label for="remember-me">Lembrar Senha</label>
+            </div>
+            <a href="produtos.html" class="btn">Entrar</a>
+    <script>
+        let login = document.querySelector(".login-form");
+
+document.querySelector("#login-btn").onclick = () =>{
+    login.classList.toggle('active');
+    navbar.classList.remove('active');
+}
+    </script>
+        </form>
+    </header>
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>Cuidamos do seu Pet,  <br>
+            para ele cuidar<br> de você! </h3>
+            <a href="produtos.html" id="remedios" class="btn">Nossos produtos</a>
+        </div>
+
+        <img src="IMG/bottom_wave.png" alt="" class="wave">
+
+    </section>
+
+    <section class="about" id="about">
+
+        <h2 class="deco-title">About us</h2>
+
+        <div class="box-container">
+
+            <div class="image">
+                <img src="IMG/afollow.jpg" alt="">
+            </div>
+
+            <div class="content">
+                <h3 class="title">FarmaPet, quem somos?</h3>
+                <p class="message">Somos uma empresa da indústria Farmacêutica, voltada com o atendimento para animais,
+                    em específico cães. O nosso propósito é entregar o melhor da medicina veterinária através 
+                de muito cuidado e estudo. A qualidade e o carinho com os Pets, proporcionando a melhor infraestrutura
+            para proporcionar a melhor qualidade nos nossos produtos.</p>
+                
+                <div class="icons-container">
+                    <div class="icons">
+                        <i class="fas fa-graduation-cap"></i>
+                        <h3>Equipe Especializada</h3>
+                    </div>
+                    <div class="icons">
+                        <i class="fas fa-robot"></i>
+                        <h3>Alta Tecnologia</h3>
+                    </div>
+                    <div class="icons">
+                        <i class="fas fa-brain"></i>
+                        <h3>Pensado para eles</h3>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+<section class="remedios" id="remedio">
+
+        <h2 class="heading">REMÉDIOS</h2>
+        <P>Confira nossa linha de produção de remédios feito com os cuidados de FarmaPet!</P>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="IMG/comprimido.jpg" alt="">
+                <div class="content">
+                    <h3>Antibióticos</h3>
+                    <a href="produtos.html" class="btn">detalhes</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="IMG/remedio.jpg" alt="">
+                <div class="content">
+                    <h3>Antialérgico</h3>
+                    <a href="produtos.html#antialergico" class="btn">detalhes</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="IMG/remedios.jpg" alt="">
+                <div class="content">
+                    <h3>Vacinas</h3>
+                    <a href="produtos.html#vacina" class="btn">detalhes</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img/remedioo.jpg" alt="">
+                <div class="content">
+                    <h3>Antipulga</h3>
+                    <a href="produtos.html#antipulga" class="btn">detalhes</a>
+                </div>
+            </div>
+
+            
+
+</section>
+   
+
+
+    
+<section class="higiene" id="higiene">
+
+    <h2 class="heading">Itens de Higiene</h2>
+    <P>Confira nossa linha de produção de higiene feito com nossas empresas parceiras!</P>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="IMG/col1.jpg" alt="">
+            <div class="content">
+                <h3>Acessórios</h3>
+                <a href="https://www.mypetbrasil.com/caes/brinquedos/" class="btn">detalhes</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="IMG/colonia.jpg" alt="">
+            <div class="content">
+                <h3>Colônias</h3>
+                <a href="https://www.petlove.com.br/cachorro/shampoos-e-cosmeticos/perfumes-e-colonias" class="btn">detalhes</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="IMG/shampo.jpg" alt="">
+            <div class="content">
+                <h3>Shampoo</h3>
+                <a href="https://www.mypetbrasil.com/banho-e-tosa/shampoo/" class="btn">detalhes</a>
+            </div>
+        </div>
+
+      
+
+        
+
+</section>
+    
+
+
+<p>──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────</p>
+
+<section class="about" id="cuidados">
+
+    
+
+    <div class="box-container">
+
+        <div class="image">
+            <img src="IMG/border-collie.jpeg" alt="">
+        </div>
+
+        <div class="content">
+            <h3 class="title">Cuidados</h3>
+            <p class="message">
+                Todo cachorro gosta de retribuir o amor e carinho que recebe, mas é claro, além dos infinitos carinhos, os tutores precisam saber e garantir os cuidados com cães.
+
+<p> Isso porque, os cuidados com cães são uma forma de prevenção importante, uma vez que essas ações prezam pela saúde e bem-estar do animal.</p>
+            </p>
+        
+        <a href="https://petanjo.com/blog/cuidados-com-caes-dicas-essenciais-para-a-saude-do-seu-pet/#:~:text=Todo%20cachorro%20gosta%20de%20retribuir,e%20bem%2Destar%20do%20animal. id="remedios" class="btn">Veja mais</a>
+            
+           
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+
+
+
+<section class="contato" id="contato">
+
+    <h2 class="heading">Fale conscoo</h2>
+
+    <form action="">
+
+        <div class="inputBox">
+            <input type="text" placeholder="Nome">
+            <input type="email" placeholder="Email">
+        </div>
+
+        <div class="inputBox">
+            <input type="date" placeholder="Data">
+            <input type="text" placeholder="Assunto">
+        </div>
+
+        <textarea name="" id="" cols="30" rows="10" placeholder="Mensagem..."></textarea>
+
+        <a href="#" class="btn">Envie </a>
+
+    </form>
+
+</section>
+
+
+<section class="rodape">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3><i class="fas fa-paw"></i> FarmaPet</h3>
+            <p>Cuide de seu Pet, com os melhores <br> produtos da indústria farmacêutica.</p>
+            <p class="links"><i class="fas fa-clock"></i>Atendimento: SEGUNDA-SEXTA </p>
+            <p class="days">7:00AM - 11:00PM</p>
+        </div>
+
+        <div class="box">
+            <h3>Informações</h3>
+            <a href="#" class="links"><i class="fas fa-phone"></i> 1245-678-9000</a>
+            <a href="#" class="links"><i class="fas fa-envelope"></i> farmapet@gmail.com</a>
+            <a href="#" class="links"><i class="fas fa-map-marker-alt"></i> Diadema, SP</a>
+        </div>
+
+        <div class="box">
+            <h3>Links</h3>
+            <a href="#home"  class="links"> <i class="fas fa-arrow-right"></i>Home</a>
+            <a href="#about"  class="links"> <i class="fas fa-arrow-right"></i>Sobre</a>
+            <a href="#remedio" class="links"> <i class="fas fa-arrow-right"></i>Remédios</a>
+            <a href="#higiene" class="links"> <i class="fas fa-arrow-right"></i>Higiene</a>
+            <a href="#cuidados" class="links"> <i class="fas fa-arrow-right"></i>Cuidados</a>
+        </div>
+
+        <div class="box">
+            <h3>Atualizações</h3>
+            <p>Receba Atualizações:</p>
+            <input type="email" placeholder="Email" class="email">
+            <a href="https://www.instagram.com/farmapet___/" class="btn">Nos siga</a>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="https://www.instagram.com/farmapet___/" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="credit">&copy; 2023 FarmaPet. Todos direitos são reservados por FarmaPet. </div>
+
+</section>
+
+
+
+
+
+
+    
+</body>
+</html>
